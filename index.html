@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+			box-sizing: border-box;
+		}
+		ul{
+			width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 15px;
+			box-shadow: 0 0 15px 2px rgba(0,0,0,0.5);
+			padding: 20px;
+			border-radius: 5px;
+		}
+		.item{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 10px 30px;
+			font-size: 20px;
+			font-weight: bold;
+			text-transform: capitalize;
+			margin-bottom: 5px;
+			box-shadow: 0 0 5px 1px rgba(0,0,0,0.6)
+		}
+		button{
+			padding: 10px;
+		}
+		div{
+			width: 200px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.add-input{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 100px;
+			padding: 10px;
+			font-size: 25px;
+			width: 1000px;
+		}
+	</style>
+</head>
+<body>
+	<h1 style="text-align: center;">todoList</h1>
+	<input class="add-input" placeholder="add new todo..."  type="text">
+	<ul>
+		
+	</ul>
+	<script src="./js/dom.js"></script>
+</body>
+</html>
